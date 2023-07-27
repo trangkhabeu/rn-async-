@@ -1,5 +1,5 @@
-import { StyleSheet, Text, View, } from 'react-native'
-import React from 'react'
+import {StyleSheet, View} from 'react-native';
+import React from 'react';
 import UserList from '../component/userList';
 
 const App = () => {
@@ -10,7 +10,7 @@ const App = () => {
   );
 };
 
-export default App
+export default App;
 
 const styles = StyleSheet.create({
   centeredView: {
@@ -20,6 +20,6 @@ const styles = StyleSheet.create({
     margin: 'auto',
     marginTop: 20,
     padding: 'auto',
-    width: '90%'
-  }
-})
+    width: '90%',
+  },
+});
