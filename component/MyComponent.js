@@ -21,8 +21,7 @@ const MyComponent = () => {
       );
       setUsers(response.data);
       setLoading(false);
-    } catch (error) {
-      console.error(error);
+    } catch (err) {
       setError(true);
       setLoading(false);
     }

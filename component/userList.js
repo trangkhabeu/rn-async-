@@ -25,7 +25,7 @@ const UserList = () => {
       const data = await FetchApi();
       setUsers(data);
       setLoading(false);
-    } catch (error) {
+    } catch (err) {
       setError(true);
       setLoading(false);
     }

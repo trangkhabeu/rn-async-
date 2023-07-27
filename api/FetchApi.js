@@ -1,4 +1,3 @@
-import {StyleSheet, Text, View} from 'react-native';
 import axios from 'axios';
 
 const FetchApi = async () => {
@@ -13,5 +12,3 @@ const FetchApi = async () => {
 };
 
 export default FetchApi;
-
-const styles = StyleSheet.create({});
