@@ -24,13 +24,13 @@ const UserList = () => {
         }
     };
 
-    renderItem = ({ item }) => {
+    const renderItem = ({ item }) => {
         return (
-            <View style={styles.item} >
-                <Text style={styles.name} >{item.name}</Text>
-                <Text style={styles.company} >Company: {item.company.name}</Text>
+            <View style={styles.item}>
+                <Text style={styles.name}>{item.name}</Text>
+                <Text style={styles.company}>Company: {item.company.name}</Text>
             </View>
-        )
+        );
     }
 
     if (error) {
